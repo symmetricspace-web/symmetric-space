@@ -129,3 +129,40 @@ footer { display: flex; justify-content: space-between; padding: 20px 28px; colo
   .contact { grid-template-columns: 1fr; gap: 55px; }
   footer { flex-direction: column; gap: 10px; }
 }
+
+/* SoundCloud player */
+.soundcloud-player {
+  margin-top: 4rem;
+  border-top: 1px solid var(--line, rgba(255,255,255,.16));
+  padding-top: 1.25rem;
+}
+.player-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: .72rem;
+  letter-spacing: .12em;
+}
+.player-head a {
+  color: inherit;
+  text-decoration: none;
+  opacity: .65;
+}
+.soundcloud-player iframe {
+  display: block;
+  width: 100%;
+  min-height: 300px;
+  border: 0;
+  background: #111;
+}
+@media (max-width: 700px) {
+  .player-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .soundcloud-player iframe {
+    min-height: 240px;
+  }
+}
