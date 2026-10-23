@@ -170,3 +170,9 @@ footer { display: flex; justify-content: space-between; padding: 20px 28px; colo
 /* Artist row without a supplied profile link */
 .artist-unlinked { cursor: default; }
 .artist-unlinked:hover { padding-left: 0; color: var(--white); }
+
+/* V7 — Official [ARCHIVES] VOL.1 cover, presented as the main artwork */
+.release-art-featured { background: #050505; }
+.release-art-featured:before, .release-art-featured:after { display: none; }
+.release-art-featured .release-cover { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.release-art-featured > span { z-index: 2; left: 14px; bottom: 12px; color: rgba(255,255,255,.72); text-shadow: 0 1px 8px #000; }

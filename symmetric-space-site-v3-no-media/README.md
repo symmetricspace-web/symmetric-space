@@ -1,18 +1,10 @@
-# Symmetric Space — V6
+# Symmetric Space — V7
 
-Static website update for Symmetric Space.
+Static website for Symmetric Space techno label and events.
 
-## V6 updates
-- Events link updated to Resident Advisor event 2567131; event details reflect 7 November 2026 at Sigma, Ibiza.
-- Music section updated to [ARCHIVES] vol.1 with Bandcamp and Beatport links.
-- Artists roster expanded to Joton, Semreh, Korben Nice, Joshua Calleja, WHM and Telicho. Supplied SoundCloud links are connected; WHM is shown without a link because none was provided.
-- Contact Bandcamp link updated.
-- Rotating geometric logo made more visible.
+## V7 updates
+- Added the official `[ARCHIVES] VOL.1` cover as a large, featured square artwork in the Music section.
+- Preserved the existing event, release links, artist roster, logo, and contact details.
 
-## Files
-- `index.html` — page structure/content
-- `styles.css` — visual system and animations
-- `script.js` — mobile navigation
-- `assets/` — existing logo assets
-
-Note: no release cover or artist photos were supplied for this update, so the existing abstract release artwork and text roster are retained until images are provided.
+## Deploy
+Upload `index.html`, `styles.css`, `script.js`, `README.md`, and the contents of `assets/` into the existing `symmetric-space-site-v3-no-media` folder in the connected GitHub repository, then commit to `main`. Vercel deploys automatically.
